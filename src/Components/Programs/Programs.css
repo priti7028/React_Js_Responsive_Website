@@ -1,0 +1,26 @@
+.Int_question{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.Int_pics{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 40px; 
+}
+.Int_pics img{
+    width: 23%;
+    border-radius: 10px;
+}
+/*media query*/
+@media (max-width:800px){
+    .Int_pics{
+        flex-wrap: wrap;
+
+    }
+    .Int_pics img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
